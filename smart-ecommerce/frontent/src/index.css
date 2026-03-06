@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #050814; /* Deep space black/blue */
+  color: #f8fafc; /* Crisp white text globally */
+  overflow-x: hidden;
+}
+
+/* Beautiful custom scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #050814; }
+::-webkit-scrollbar-thumb { background: #38bdf8; border-radius: 4px; }
+
+h1, h2, h3 {
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #38bdf8;
+}
